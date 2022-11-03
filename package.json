@@ -1,0 +1,30 @@
+{
+  "name": "@gayansandamal/ez-object-diff",
+  "version": "1.0.0",
+  "description": "Easily get the difference between two objects",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gayanSandamal/ez-object-diff.git"
+  },
+  "keywords": [
+    "javscript",
+    "object",
+    "difference",
+    "object",
+    "diff",
+    "object",
+    "difference"
+  ],
+  "author": "gayan sandamal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gayanSandamal/ez-object-diff/issues"
+  },
+  "homepage": "https://github.com/gayanSandamal/ez-object-diff#readme"
+}
