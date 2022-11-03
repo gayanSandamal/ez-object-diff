@@ -1,1 +1,1 @@
-# ezjs-package
+# ez-object-diff-package

@@ -1,6 +1,6 @@
 {
   "name": "@gayansandamal/ez-object-diff",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Easily get the difference between two objects",
   "main": "index.js",
   "dependencies": {},
