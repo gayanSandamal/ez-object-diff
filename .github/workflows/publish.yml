@@ -9,15 +9,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: 📚 Checking out...
+      - name: 📚 Checkout
       - uses: actions/checkout@v3
-      # Setup .npmrc file to publish to npm
-      - name: 🟢 Installing node...
+      - name: 🟢 Node
       - uses: actions/setup-node@v3
         with:
           node-version: "16.x"
           registry-url: "https://registry.npmjs.org"
-      - name: 🚀 Publishing...
       - run: npm ci
       - run: npm publish --access=public
         env:
