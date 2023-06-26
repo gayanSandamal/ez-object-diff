@@ -21,7 +21,7 @@ jobs:
         run: npm ci
 
       - name: Publish to NPM
-        run: npm login
+        run: npm login --auth-type=legacy
       - run: npm publish --access=public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
