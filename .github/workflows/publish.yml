@@ -21,7 +21,7 @@ jobs:
         run: npm ci
 
       - name: Publish to NPM
-        run: npm addUser --auth-type=legacy
+        run: npm adduser --auth-type=legacy
       - run: npm publish --access=public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
